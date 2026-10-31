@@ -1,6 +1,6 @@
 # Peglight Party
 
-An original browser arcade game inspired by Peggle 2. Aim and bounce through three boards, clearing all 25 orange pegs before your ten balls run out. Blue pegs add points, purple pegs are worth more, and green pegs give a two-shot Super Guide that traces the ball through its first bounce. Hit several pegs per shot for a bigger score and catch the moving bucket to earn a free ball. Your score carries between stages.
+An original browser arcade game inspired by Peggle 2. Aim and bounce through three boards, clearing all 25 orange pegs before your ten balls run out. Blue pegs add points and purple pegs are worth more. The normal guide shows the ball’s trajectory through its first bounce; green pegs give a two-shot Super Guide that traces several impacts. Hit several pegs per shot for a bigger score and catch the moving bucket to earn a free ball. Your score carries between stages.
 
 ## Play locally
 
@@ -24,7 +24,7 @@ This is a small single-player interpretation, not a reproduction of the original
 
 ## Tests
 
-Run `node --test tests/guide.test.cjs` to check the Super Guide against real shot physics and its two-shot duration.
+Run `node --test tests/guide.test.cjs` to check both guides against shot physics, bounces, aiming at different sizes, and the Super Guide’s two-shot duration.
 
 ## License
 
