@@ -1,6 +1,47 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "gameId": "kata-inspired-by-peggle-2-codex-dot",
   "playUrl": "https://intrepion.github.io/kata-inspired-by-peggle-2-codex-dot/",
-  "screenshots": []
+  "screenshots": [
+    {
+      "path": "arcade/screenshots/ci-20261102-01.jpg",
+      "sha256": "f2b8c25fe38cbef5f08ede7b3ac4134e7eba736a2e4d2346e98784fa473c0de1",
+      "alt": "Peglight Party gameplay, view 1",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261102-01.png",
+        "sourceSha256": "4d176d87cb9ba24ba1f5eb1350370fd50e74517644ccf1d012964bae48f44081",
+        "captureCommit": "bfd72bf6bb9cacf2e4382402e2fcb034260e0e83",
+        "workflowRunId": "41394453947",
+        "inputHashes": {
+          "index.html": "566edbb9ed98203e639ee88c8dd0c905728ea64c7504b696ceec7e73da526e5b",
+          "style.css": "ebd0cb7f01c272b440d9574d3fc1a1c4358235686c52a1af1311e189a94a0042",
+          "game.js": "480934bde640fcd79323d24f1f5fe19e65dc5066d736200a4972a1d5402de158"
+        },
+        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
+        "captureRecordSha256": "140c16103abcb071e7d9c0b8cacd918d425c5efaf448c9f8a94672e5243c361a"
+      }
+    },
+    {
+      "path": "arcade/screenshots/ci-20261102-02.jpg",
+      "sha256": "59ed991af6b0a795917af59df014559bfd079bcc026b8d982cd9bea493e66521",
+      "alt": "Peglight Party gameplay, view 2",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261102-02.png",
+        "sourceSha256": "1ea7d0a1967bee91753a05dc97e3df72fd4a30ec32b63cbb3125d54b20fc0302",
+        "captureCommit": "bfd72bf6bb9cacf2e4382402e2fcb034260e0e83",
+        "workflowRunId": "41394453947",
+        "inputHashes": {
+          "index.html": "566edbb9ed98203e639ee88c8dd0c905728ea64c7504b696ceec7e73da526e5b",
+          "style.css": "ebd0cb7f01c272b440d9574d3fc1a1c4358235686c52a1af1311e189a94a0042",
+          "game.js": "480934bde640fcd79323d24f1f5fe19e65dc5066d736200a4972a1d5402de158"
+        },
+        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
+        "captureRecordSha256": "140c16103abcb071e7d9c0b8cacd918d425c5efaf448c9f8a94672e5243c361a"
+      }
+    }
+  ]
 }
