@@ -29,3 +29,7 @@ Run `node --test tests/guide.test.cjs` to check both guides against shot physics
 ## License
 
 MIT; see [LICENSE](LICENSE).
+
+## Arcade metadata
+
+See [docs/arcade-metadata.md](docs/arcade-metadata.md) for the game-owned manifest and screenshot provenance.
