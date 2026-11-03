@@ -4,43 +4,43 @@
   "playUrl": "https://intrepion.github.io/kata-inspired-by-peggle-2-codex-dot/",
   "screenshots": [
     {
-      "path": "arcade/screenshots/ci-20261102-01.jpg",
-      "sha256": "f2b8c25fe38cbef5f08ede7b3ac4134e7eba736a2e4d2346e98784fa473c0de1",
-      "alt": "Peglight Party gameplay, view 1",
+      "path": "arcade/screenshots/review-20261103-01.jpg",
+      "sha256": "20376da4c3c0e21b7e595d7c66d8a94f3e430a900aa08563a4c41d708ce3b8ec",
+      "alt": "Peglight Party gameplay after the mechanics update, view 1",
       "provenance": {
         "kind": "ci_gameplay_capture",
-        "sourcePath": "arcade/capture-evidence/ci-20261102-01.png",
-        "sourceSha256": "4d176d87cb9ba24ba1f5eb1350370fd50e74517644ccf1d012964bae48f44081",
-        "captureCommit": "bfd72bf6bb9cacf2e4382402e2fcb034260e0e83",
-        "workflowRunId": "41394453947",
+        "sourcePath": "arcade/capture-evidence/review-20261103-01.png",
+        "sourceSha256": "643f6f4af7c77a80387496d0c4de5cd973ebb494ff3551ec4cd308d9902fb0a1",
+        "captureCommit": "0dd6309404c4bf35d987b9fb2e63a15998adc445",
+        "workflowRunId": "41675648897",
         "inputHashes": {
-          "index.html": "566edbb9ed98203e639ee88c8dd0c905728ea64c7504b696ceec7e73da526e5b",
+          "index.html": "c3923c7f02bf3a0cca4ee6654eccc1a21c8c19b44521e6ec1bc18ebe49801b97",
           "style.css": "ebd0cb7f01c272b440d9574d3fc1a1c4358235686c52a1af1311e189a94a0042",
-          "game.js": "480934bde640fcd79323d24f1f5fe19e65dc5066d736200a4972a1d5402de158"
+          "game.js": "f907e197d73a43c6f805006400c5f5b6fd2dc01fb37109c1b15e8fd62e52ae92"
         },
-        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
-        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
-        "captureRecordSha256": "140c16103abcb071e7d9c0b8cacd918d425c5efaf448c9f8a94672e5243c361a"
+        "publishedFilesVerifiedAt": "2026-11-03T16:39:53Z",
+        "captureRecordPath": "arcade/capture-evidence/review-20261103-record.json",
+        "captureRecordSha256": "d24467c36bfcfea1880b2a2f6f213c9bbd02a95a9a6283cb9553ee9115da0b8c"
       }
     },
     {
-      "path": "arcade/screenshots/ci-20261102-02.jpg",
-      "sha256": "59ed991af6b0a795917af59df014559bfd079bcc026b8d982cd9bea493e66521",
-      "alt": "Peglight Party gameplay, view 2",
+      "path": "arcade/screenshots/review-20261103-02.jpg",
+      "sha256": "846637a92f471154415dce918709278b2db52a93301fd57db1a29165df196405",
+      "alt": "Peglight Party gameplay after the mechanics update, view 2",
       "provenance": {
         "kind": "ci_gameplay_capture",
-        "sourcePath": "arcade/capture-evidence/ci-20261102-02.png",
-        "sourceSha256": "1ea7d0a1967bee91753a05dc97e3df72fd4a30ec32b63cbb3125d54b20fc0302",
-        "captureCommit": "bfd72bf6bb9cacf2e4382402e2fcb034260e0e83",
-        "workflowRunId": "41394453947",
+        "sourcePath": "arcade/capture-evidence/review-20261103-02.png",
+        "sourceSha256": "b1fd261a0f9381ee5caf102d513dea4c7c41718bcb3283161b55098dddc5192a",
+        "captureCommit": "0dd6309404c4bf35d987b9fb2e63a15998adc445",
+        "workflowRunId": "41675648897",
         "inputHashes": {
-          "index.html": "566edbb9ed98203e639ee88c8dd0c905728ea64c7504b696ceec7e73da526e5b",
+          "index.html": "c3923c7f02bf3a0cca4ee6654eccc1a21c8c19b44521e6ec1bc18ebe49801b97",
           "style.css": "ebd0cb7f01c272b440d9574d3fc1a1c4358235686c52a1af1311e189a94a0042",
-          "game.js": "480934bde640fcd79323d24f1f5fe19e65dc5066d736200a4972a1d5402de158"
+          "game.js": "f907e197d73a43c6f805006400c5f5b6fd2dc01fb37109c1b15e8fd62e52ae92"
         },
-        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
-        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
-        "captureRecordSha256": "140c16103abcb071e7d9c0b8cacd918d425c5efaf448c9f8a94672e5243c361a"
+        "publishedFilesVerifiedAt": "2026-11-03T16:39:53Z",
+        "captureRecordPath": "arcade/capture-evidence/review-20261103-record.json",
+        "captureRecordSha256": "d24467c36bfcfea1880b2a2f6f213c9bbd02a95a9a6283cb9553ee9115da0b8c"
       }
     }
   ]

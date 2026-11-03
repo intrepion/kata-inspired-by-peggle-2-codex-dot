@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "workflowCommit": "0dd6309404c4bf35d987b9fb2e63a15998adc445",
+  "sourceCommit": "0dd6309404c4bf35d987b9fb2e63a15998adc445",
+  "runId": "41675648897",
+  "url": "http://127.0.0.1:4280/",
+  "inputs": {
+    "index.html": "c3923c7f02bf3a0cca4ee6654eccc1a21c8c19b44521e6ec1bc18ebe49801b97",
+    "style.css": "ebd0cb7f01c272b440d9574d3fc1a1c4358235686c52a1af1311e189a94a0042",
+    "game.js": "f907e197d73a43c6f805006400c5f5b6fd2dc01fb37109c1b15e8fd62e52ae92"
+  },
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "screenshots": [
+    "peglight-01.png",
+    "peglight-02.png"
+  ]
+}
