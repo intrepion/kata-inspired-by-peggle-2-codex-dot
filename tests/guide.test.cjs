@@ -87,3 +87,25 @@ test('aim maps pointer coordinates consistently at different canvas sizes and as
   run('canvas.getBoundingClientRect=()=>({left:0,top:0,width:360,height:760});aim({clientX:270,clientY:380})');
   assert.ok(run('Math.abs(angle-reference)<1e-12'));
 });
+
+test('shot scoring multiplies the entire peg sum and repeated contact does not count twice',()=>{
+ const run=game();run('sound=false;makeLevel();pegs=Array.from({length:27},(_,id)=>({id,x:100,y:200,r:10,type:id<25?"orange":"blue",hit:false}));phase="aim";shoot();lightPeg(pegs[25]);lightPeg(pegs[26])');
+ assert.equal(run('shotScore'),40);run('lightPeg(pegs[25])');assert.equal(run('shotScore'),40);assert.equal(run('hits'),2);
+ run('endShot(false)');assert.equal(run('score'),40);assert.equal(run('shotScore'),0);
+});
+test('score thresholds each award one ball and a bucket catch can stack with them',()=>{
+ const run=game();run('sound=false;makeLevel();pegs=Array.from({length:23},(_,id)=>({id,x:100,y:200,r:10,type:id===0?"purple":id<20?"blue":"orange",hit:false}));phase="aim";shoot();for(let i=0;i<5;i++)lightPeg(pegs[i])');
+ assert.equal(run('shotScore'),27000);assert.equal(run('balls'),10);
+ run('for(let i=5;i<13;i++)lightPeg(pegs[i])');assert.equal(run('shotScore'),80600);assert.equal(run('balls'),11);
+ run('for(let i=13;i<19;i++)lightPeg(pegs[i])');assert.equal(run('shotScore'),129200);assert.equal(run('balls'),12);
+ run('lightPeg(pegs[19]);lightPeg(pegs[19])');assert.equal(run('balls'),12);
+ run('endShot(true)');assert.equal(run('balls'),13);
+ run('shoot()');assert.equal(run('scoreBalls'),0);assert.equal(run('pegPoints'),0);assert.equal(run('shotScore'),0);
+});
+test('purple moves to another surviving blue peg without replacing objective or power pegs',()=>{
+ const run=game();run('makeLevel();var oldPurple=pegs.find(p=>p.type==="purple").id;movePurple()');
+ assert.equal(run('pegs.filter(p=>p.type==="purple").length'),1);assert.equal(run('pegs.find(p=>p.type==="purple").id===oldPurple'),false);
+ assert.equal(run('pegs.filter(p=>p.type==="orange").length'),25);assert.equal(run('pegs.filter(p=>p.type==="green").length'),2);
+ run('pegs=pegs.filter(p=>p.type!=="purple");movePurple()');assert.equal(run('pegs.filter(p=>p.type==="purple").length'),1);
+ run('pegs=pegs.filter(p=>p.type==="orange"||p.type==="green");movePurple()');assert.equal(run('pegs.filter(p=>p.type==="purple").length'),0);
+});

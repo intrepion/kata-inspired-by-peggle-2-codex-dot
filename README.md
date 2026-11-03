@@ -33,3 +33,7 @@ MIT; see [LICENSE](LICENSE).
 ## Arcade metadata
 
 See [docs/arcade-metadata.md](docs/arcade-metadata.md) for the game-owned manifest and screenshot provenance.
+
+## Scoring correction
+
+Shot points now equal the sum of the lit peg values multiplied by the number of unique pegs hit. Repeated contact does not score again. Reaching 25,000, 75,000 and 125,000 points in one shot awards a ball at each threshold; a bucket catch can add another. The purple bonus relocates among surviving blue pegs between shots, preserving orange and green roles. These changes follow [EA’s Peggle 2 help](https://dlassets-ssl.xboxlive.com/public/content/efd011ea-47b6-4b61-9e86-08063a3e1cfa/GameManual/2968fc9a-311b-4beb-8ee6-3903d1bc8643/en-GB/index.html). Existing orange-count multiplier thresholds remain authored values; style-shot awards, no-hit coin flips, Fever buckets and remaining-ball bonuses are not implemented.
