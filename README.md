@@ -1,5 +1,7 @@
 # Peglight Party
 
+[Play Peglight Party](https://intrepion.github.io/kata-inspired-by-peggle-2-codex-dot/) · [Kata Arcade](https://intrepion.github.io/)
+
 An original browser arcade game inspired by Peggle 2. Aim and bounce through three boards, clearing all 25 orange pegs before your ten balls run out. Blue pegs add points and purple pegs are worth more. The normal guide shows the ball’s trajectory through its first bounce; green pegs give a two-shot Super Guide that traces several impacts. Hit several pegs per shot for a bigger score and catch the moving bucket to earn a free ball. Your score carries between stages.
 
 ## Play locally
